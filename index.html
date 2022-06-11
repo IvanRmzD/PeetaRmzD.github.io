@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Proyecto 2 - Mi página web CUSA</title>
+  <link rel="shortcut icon" href="cusa.png" />
+
+  <style>
+    body {
+      background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/The-Video-Game-Gallery-Firewatch-Wallpapers-1920x1080.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      height: auto;
+
+    }
+
+    .iron {
+      font-family: cursive;
+      margin-right: 30px;
+    }
+
+    .btg {
+      background-color: #78abf7;
+      color: rgb(0, 0, 0);
+      font-size: 1.2em;
+      padding: 3px;
+
+    }
+
+    .letra {
+      color: rgb(234, 250, 241);
+
+    }
+
+    form {
+      /* Centrar el formulario en la página */
+      margin: 0 auto;
+      width: 500px;
+      /* Esquema del formulario */
+      padding: 1em;
+      border: 5px solid rgb(26, 79, 177);
+      border-radius: 2em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    form li+li {
+      margin-top: 1em;
+    }
+
+    label {
+      /* Tamaño y alineación uniforme */
+      display: inline-block;
+      width: 90px;
+
+    }
+
+    input,
+    textarea {
+      /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+      font: 1em sans-serif;
+
+      /* Tamaño uniforme del campo de texto */
+      width: 400px;
+      box-sizing: border-box;
+
+      /* Hacer coincidir los bordes del campo del formulario */
+      border: 1px solid #999;
+    }
+
+    input:focus,
+    textarea:focus {
+      /* Destacado adicional para elementos que tienen el cursor */
+      border-color: #000;
+    }
+
+    textarea {
+      /* Alinear los campos de texto multilínea con sus etiquetas */
+      vertical-align: top;
+
+      /* Proporcionar espacio para escribir texto */
+      height: 5em;
+    }
+
+    .button {
+      /* Alinear los botones con los campos de texto */
+      padding-left: 90px;
+      /* mismo tamaño que los elementos de la etiqueta */
+    }
+
+    button {
+      /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+      margin-left: .5em;
+    }
+
+    #audio {
+      display: block
+        /* display: none */
+    }
+
+    .btn {
+      margin: 10px 0 10px 0;
+      color: #ffffff;
+      font-weight: bold;
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 16px;
+      text-align: center;
+      cursor: pointer;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      outline: 0;
+    }
+
+    .Fb {
+      background-color: #3b5998;
+    }
+
+    .Fb:hover {
+      background-color: #6b93e7;
+    }
+
+    .Yt {
+      background-color: #dd4b39;
+    }
+
+    .Yt:hover {
+      background-color: #f87362;
+    }
+
+    .Tw {
+      background-color: #55acee;
+    }
+
+    .Tw:hover {
+      background-color: #97d1fc;
+    }
+
+    .In {
+      background-color: #F06292;
+    }
+
+    .In:hover {
+      background-color: #F48FB1;
+    }
+  </style>
+</head>
+
+<body class="iron" class="letra">
+
+  <center>
+    <img src="logocusa.png" alt="texto descriptivo" height="200px" width="1244px">
+  </center>
+
+
+  <center>
+    <h1 style="color:#78abf7;">Centro Universitario San Ángel</h1>
+  </center>
+
+  <!-- <audio id="musicplayer" autoplay>
+    <source src="daft_punk_audio.mp3">
+  </audio> -->
+
+
+  <audio id="audio" controls>
+    <source type="audio/mp3" src="daft_punk_audio.mp3">
+  </audio>
+
+  <br>
+
+  <button class="bt3 btg"
+    onclick="javascript:alert('Nombre del autor: PeetaRmzD\nFecha de creación: 02/06/22\nCorreo electrónico: peeta_0504@outlook.com');">Contacto
+    del autor</button><br><br>
+
+  <ol style="color:#78abf7;">
+    <h2><strong>
+        <li>Página oficial de la escuela</li>
+      </strong></h2>
+    <center>
+      <iframe loading="lazy" src="https://www.cusa.edu.mx/" style="border:0px #ffffff none;" name="Victor Mochere"
+        scrolling="si" frameborder="1" marginheight="0px" marginwidth="0px" height="650px" width="1100px"
+        allowfullscreen></iframe>
+    </center>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2><strong>
+        <li>Video promocional de la escuela:</li>
+      </strong></h2>
+    <center>
+      <iframe width="1050" height="550" src="https://www.youtube.com/embed/7fhyzAiiwqA" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </center>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2><strong>
+        <li>Mapa donde se encuentra la escuela:</li>
+      </strong></h2>
+    <center>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7629162801045!2d-99.16413748461278!3d19.422647046030804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc023b6818c5%3A0xce1091c5ea5be159!2sCentro%20Universitario%20San%20%C3%81ngel!5e0!3m2!1ses!2smx!4v1651105195937!5m2!1ses!2smx"
+        width="950" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2><strong>
+        <li>Página de "Radio CUSA":</li>
+        Radio CUSA Una emisora de Grupo IESAP, creada para la comunidad del Centro Universitario San Ángel (CUSA). En
+        esta radiodifusora, podrás escuchar: entrevistas, reportajes y programas en vivo.
+      </strong></h2>
+    <br>
+    <br>
+    <br>
+    <center>
+      <iframe loading="lazy" src="https://radiocusa.radio12345.com/" style="border:0px #ffffff none;"
+        name="Victor Mochere" scrolling="si" frameborder="1" marginheight="0px" marginwidth="0px" height="550"
+        width="950"></iframe>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2><strong>
+        <li>Formulario:</li>
+        Por favor llene el formulario con tus datos para estar en contacto, te apoyaremos a concretar en esta excelente
+        decisión.
+      </strong></h2>
+    <br>
+
+  </ol>
+
+
+
+
+
+
+  <form class="letra">
+    <ul>
+      <li>
+        <label for="name">Nombre(s):</label>
+        <input type="text" id="user_name" name="user_name" placeholder="Escriba su nombre" />
+      </li>
+      <li>
+        <label for="Apellido">Apellidos:</label>
+        <input type="text" id="ape_1" name="ape_1" placeholder="Escriba sus apellidos" />
+      </li>
+      <li>
+        <label for="Gardo">Grado escolar:</label>
+        <input type="text" id="grado_1" name="grado_1" placeholder="Escriba su grado" />
+      </li>
+      <li>
+        <label for="Institución">Institución o Empresa dónde trabaja:</label>
+        <input type="text" id="institución_1" name="institución_1"
+          placeholder="Escriba institución o empresa dónde trabaja" />
+      </li>
+      <li>
+        <label for="Puesto">Puesto:</label>
+        <input type="text" id="puesto_1" name="puesto_1" placeholder="Escriba su puesto" />
+      </li>
+      <li>
+        <label for="Telefonos">Teléfono / Celular:</label>
+        <input type="text" id="telefono_1" name="telefono_1" placeholder="Escriba su Teléfono/Celular" />
+      </li>
+      <li>
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" id="user_email" name="user_email" placeholder="Escriba su correo electrónico" />
+      </li>
+      <li>
+        <label for="Facebook">Facebook:</label>
+        <input type="text" id="facebook_1" name="facebook_1" placeholder="Escriba su facebook" />
+      </li>
+      <li>
+        <label for="menu2">Oferta Educativa:</label>
+        <select name="menu_2" id="menu_2">
+          <option selected>-Select-</option>
+
+          <option value="Bachillerato en Contabilidad">Bachillerato en Contabilidad</option>
+          <option value="Bachillerato en Computación">Bachillerato en Computación</option>
+          <option value="Bachillerato en Diseño Gráfico">Bachillerato en Diseño Gráfico</option>
+          <option value="Licenciatura en AAdministración de Empresas">Licenciatura en Administración de Empresas
+          </option>
+          <option value="Licenciatura en Contaduria Pública">Licenciatura en Contaduria Pública</option>
+          <option value="Licenciatura en Derecho">Licenciatura en Derecho</option>
+          <option value="Licenciatura en Diseño Gráfico">Licenciatura en Diseño Gráfico</option>
+          <option value="Licenciatura en Ingeniería en Sistemas Computacionales">Licenciatura en Ingeniería en Sistemas
+            Computacionales</option>
+          <option value="Especialidad en Diseño Web">Especialidad en Diseño Web</option>
+          <option value="Maestría en AAdministración">Maestría en Administración</option>
+
+        </select>
+      </li>
+      <li>
+        <label for="name1">Atendido por:</label>
+        <select name="menu_1" id="menu_1">
+          <option selected>-Select-</option>
+
+          <option value="Interesado">Interesado</option>
+          <option value="Adrian Arroyo">Adrian Arroyo</option>
+          <option value="Gustavo Sánchez">Gustavo Sánchez</option>
+          <option value="Samantha Navarrete">Samantha Navarrete</option>
+          <option value="Andrea Blancas">Andrea Blancas</option>
+          <option value="José Reyes">José Reyes</option>
+          <option value="Lic. Manuel Martínez">Lic. Manuel Martínez</option>
+
+        </select>
+      </li><br>
+      <li>
+        <label for="name">Comentarios y preguntas:</label>
+        <input type="text" id="comentario_1" name="comentario_1" placeholder="Escriba su comentarios o preguntas" />
+      </li>
+
+      <li class="button">
+        <!-- <button>Envíe su mensaje</button> -->
+        <button onclick="formulario()">Envíe su mensaje</button>
+      </li>
+    </ul>
+  </form>
+
+</body>
+
+<script>
+  function formulario() {
+    var name = document.getElementById('user_name');
+    var apellido = document.getElementById('ape_1');
+    alert('Nombre:  ' + name.value + '\nApellidos:  ' + apellido.value + '\nGrado escolar:  ' + document.getElementById('grado_1').value + '\nInstitución o Empresa dónde trabaja:  ' + document.getElementById('institución_1').value + '\nPuesto:  ' + document.getElementById('puesto_1').value + '\nTeléfono / Celular:  ' + document.getElementById('telefono_1').value + '\nCorreo electrónico:  ' + document.getElementById('user_email').value + '\nFacebook:  ' + document.getElementById('facebook_1').value + '\nOferta Educativa:  ' + document.getElementById('menu_2').value + '\nAtendido por:  ' + document.getElementById('menu_1').value + '\nComentarios y preguntas:  ' + document.getElementById('comentario_1').value);
+  }
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+<script>
+  var audio = document.getElementById("audio");
+
+  audio.play();
+</script>
+
+<br>
+<br>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0"
+  nonce="z64XVyMq"></script>
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button"
+  data-action="like" data-size="small" data-share="false"></div>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0"
+  nonce="xQOCT71B"></script>
+<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+  data-size="small"><a target="_blank"
+    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+    class="fb-xfbml-parse-ignore">Compartir</a></div>
+
+<br>
+<button type="button" onclick="javascript:void(window.open('https://youtube.com/?hl=es'+encodeURIComponent(location)));"
+  class="btn Yt">YouTube</button>
+<button type="button"
+  onclick="javascript:void(window.open('https://facebook.com/home.php?u='+encodeURIComponent(location)));"
+  class="btn Fb">facebook</button>
+<button type="button"
+  onclick="javascript:void(window.open('https://twitter.com/home/?hl=es'+encodeURIComponent(location)));"
+  class="btn Tw">Twitter</button>
+<button type="button"
+  onclick="javascript:void(window.open('https://instagram.com/?hl=es'+encodeURIComponent(location)));"
+  class="btn In">Instagram</button>
+
+<br>
+
+</body>
+
+</html>
